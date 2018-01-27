@@ -30,7 +30,10 @@ loadReadme()
 
 .then(console.log)
 
-.catch(console.log)
+.catch(error => {
+  console.log(error)
+  process.exit(1)
+})
 
 async function loadReadme () {
   console.log('🤖  loading README')
