@@ -7,6 +7,14 @@
 
 Requires: [latest Node LTS](https://nodejs.org/en/)
 
+| ID   | Name                            | Last update     |
+|------|---------------------------------| --------------- |
+| 990  | VSC - Vermont Service Center    | January 5, 2018 |
+| 991  | CSC - California Service Center | January 5, 2018 |
+| 992  | NSC - Nebraska Service Center   | January 5, 2018 |
+| 993  | TSC - Texas Service Center      | January 5, 2018 |
+| 1031 | YSC - Potomac Service Center    | January 5, 2018 |
+
 ## Usage as CLI
 
 Load all service centers
@@ -20,16 +28,6 @@ Load single service center by passing center ID
 ```js
 npx uscis-service-center-processing-times 992
 ```
-
-Service Center IDs
-
-| ID   | Name                            |
-|------|---------------------------------|
-| 990  | VSC - Vermont Service Center    |
-| 991  | CSC - California Service Center |
-| 992  | NSC - Nebraska Service Center   |
-| 993  | TSC - Texas Service Center      |
-| 1031 | YSC - Potomac Service Center    |
 
 ## Usage with Node
 
