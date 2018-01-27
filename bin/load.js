@@ -1,6 +1,6 @@
 #! /usr/bin/env node
 
-const {table} = require('table')
+const table = require('markdown-table')
 
 const getServiceCenterProcessingTimes = require('..')
 
@@ -12,7 +12,7 @@ if (centerId) {
     process.exit(1)
   }
 
-  getServiceCenterProcessingTimes({id: centerId})
+  getServiceCenterProcessingTimes({id: parseInt(centerId, 10)})
 
   .then(logResult)
 
