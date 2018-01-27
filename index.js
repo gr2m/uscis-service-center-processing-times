@@ -9,8 +9,8 @@ async function getServiceCenterProcessingTimes (options) {
   const state = {
     sessionId: null,
     centerId: options && options.id,
-    timeout: 1000,
-    retries: 3
+    timeout: 200,
+    retries: 5
   }
   const centers = await getCenters(state)
 
