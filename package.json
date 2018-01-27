@@ -20,8 +20,8 @@
   "dependencies": {
     "cheerio": "^1.0.0-rc.2",
     "got": "^8.0.3",
-    "p-retry": "^1.0.0",
-    "table": "^4.0.2"
+    "markdown-table": "^1.1.1",
+    "p-retry": "^1.0.0"
   },
   "repository": {
     "type": "git",
