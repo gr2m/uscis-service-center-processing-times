@@ -1,0 +1,30 @@
+{
+  "name": "uscis-service-center-processing-times",
+  "version": "0.0.0-development",
+  "description": "Get processing time for one or all USCIS service centers",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js",
+    "semantic-release": "semantic-release",
+    "travis-deploy-once": "travis-deploy-once"
+  },
+  "keywords": [
+    "uscis",
+    "api"
+  ],
+  "author": "Gregor Martynus (https://twitter.com/gr2m)",
+  "license": "ISC",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.2",
+    "got": "^8.0.3",
+    "p-retry": "^1.0.0",
+    "table": "^4.0.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gr2m/uscis-service-center-processing-times.git"
+  },
+  "devDependencies": {
+    "semantic-release": "^12.2.5"
+  }
+}
