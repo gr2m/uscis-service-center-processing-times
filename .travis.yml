@@ -11,9 +11,20 @@ branches:
     - master
     - /^greenkeeper.*$/
 
+stages:
+  - test
+  - name: release
+    if: branch = master AND type IN (push)
+  - name: cron
+    if: type IN (cron)
+
 jobs:
   include:
+    - stage: test
+      script: npm test
     - stage: release
       node_js: lts/*
-      script:
-        - npm run semantic-release
+      script: npm run semantic-release
+    - stage: cron
+      node_js: lts/*
+      script: travis_retry node bin/update-readme.js
