@@ -28,6 +28,7 @@
     "url": "https://github.com/gr2m/uscis-service-center-processing-times.git"
   },
   "devDependencies": {
+    "@octokit/rest": "^14.0.5",
     "semantic-release": "^12.2.5"
   }
 }
