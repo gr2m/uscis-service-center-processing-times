@@ -34,7 +34,7 @@ npx uscis-service-center-processing-times 992
 Install with `npm install uscis-service-center-processing-times`
 
 ```js
-cost getServiceCenterProcessingTimes = require('uscis-service-center-processing-times')
+const getServiceCenterProcessingTimes = require('uscis-service-center-processing-times')
 
 // get all
 getServiceCenterProcessingTimes()
