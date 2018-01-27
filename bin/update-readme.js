@@ -37,8 +37,7 @@ async function loadReadme () {
   const {data: {content, sha}} = await octokit.repos.getContent({
     owner,
     repo,
-    path: 'README.md',
-    ref: 'test'
+    path: 'README.md'
   })
 
   readmeSha = sha
@@ -85,8 +84,7 @@ async function loadCenters (readmeLastUpdated) {
     path: 'README.md',
     message: 'USCIS center last update changed',
     content: Buffer.from(readmeContent).toString('base64'),
-    sha: readmeSha,
-    branch: 'test'
+    sha: readmeSha
   })
 
   console.log('🤖  README.md updated')
