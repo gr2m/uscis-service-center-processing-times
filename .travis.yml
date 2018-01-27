@@ -21,7 +21,7 @@ stages:
 jobs:
   include:
     - stage: test
-      script: npm test
+      script: travis_retry npm test
     - stage: release
       node_js: lts/*
       script: npm run semantic-release
