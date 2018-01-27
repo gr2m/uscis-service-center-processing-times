@@ -5,8 +5,6 @@
 [![Build Status](https://travis-ci.org/gr2m/uscis-service-center-processing-times.svg?branch=master)](https://travis-ci.org/gr2m/uscis-service-center-processing-times)
 [![Greenkeeper badge](https://badges.greenkeeper.io/gr2m/uscis-service-center-processing-times.svg)](https://greenkeeper.io/)
 
-Requires: [latest Node LTS](https://nodejs.org/en/)
-
 | ID   | Name                            | Last update     |
 |------|---------------------------------| --------------- |
 | 990  | VSC - Vermont Service Center    | January 5, 2018 |
@@ -16,6 +14,8 @@ Requires: [latest Node LTS](https://nodejs.org/en/)
 | 1031 | YSC - Potomac Service Center    | January 5, 2018 |
 
 ## Usage as CLI
+
+Requires: [latest Node LTS](https://nodejs.org/en/)
 
 Load all service centers
 
