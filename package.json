@@ -3,6 +3,9 @@
   "version": "0.0.0-development",
   "description": "Get processing time for one or all USCIS service centers",
   "main": "index.js",
+  "bin": {
+    "uscis-service-center-processing-times": "bin/load.js"
+  },
   "scripts": {
     "test": "node test.js",
     "semantic-release": "semantic-release",
