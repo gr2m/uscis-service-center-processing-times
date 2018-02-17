@@ -7,11 +7,11 @@
 
 | ID   | Name                            | Last update     |
 |------|---------------------------------| --------------- |
-| 990  | VSC - Vermont Service Center    | February 1, 2018 |
-| 991  | CSC - California Service Center | February 1, 2018 |
-| 992  | NSC - Nebraska Service Center   | February 1, 2018 |
-| 993  | TSC - Texas Service Center      | February 1, 2018 |
-| 1031 | YSC - Potomac Service Center    | February 1, 2018 |
+| 990  | VSC - Vermont Service Center    | February 15, 2018 |
+| 991  | CSC - California Service Center | February 15, 2018 |
+| 992  | NSC - Nebraska Service Center   | February 15, 2018 |
+| 993  | TSC - Texas Service Center      | February 15, 2018 |
+| 1031 | YSC - Potomac Service Center    | February 15, 2018 |
 
 ## Usage as CLI
 
