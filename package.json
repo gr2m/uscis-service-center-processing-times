@@ -29,6 +29,6 @@
   },
   "devDependencies": {
     "@octokit/rest": "^15.1.7",
-    "semantic-release": "^12.2.5"
+    "semantic-release": "^15.0.0"
   }
 }
