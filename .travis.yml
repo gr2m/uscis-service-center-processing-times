@@ -3,6 +3,8 @@ cache:
   directories:
     - ~/.npm
 node_js: lts/*
+notifications:
+  - email: false
 
 # Trigger a push build on master and greenkeeper branches + PRs build on every branches
 # Avoid double build on PRs (See https://github.com/travis-ci/travis-ci/issues/1147)
