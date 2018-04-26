@@ -21,7 +21,7 @@
     "cheerio": "^1.0.0-rc.2",
     "got": "^8.0.3",
     "markdown-table": "^1.1.1",
-    "p-retry": "^1.0.0"
+    "p-retry": "^2.0.0"
   },
   "repository": {
     "type": "git",
